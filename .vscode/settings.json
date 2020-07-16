@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "git.defaultCloneDirectory": "https://github.com/karendev1/Y-soba.git"
 }

@@ -27,7 +27,7 @@ body {
    flex-wrap: wrap;
    
 }
-.caixa {
+.caixa  {
     position: relative;
     bottom: 140px;
     border-radius: 3px;
