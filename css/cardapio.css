@@ -2,7 +2,7 @@
 
 body {
      display:flex;
-   background-color: #7c7878;
+     background-color: rgb(85, 72, 72);
     background-repeat: repeat;
     background-size: cover;
     background-position:center;
@@ -173,4 +173,188 @@ body {
     position: relative;
     bottom: -130px;
 }
+
+/* RESPONSIVO */
+
+@media only screen and (max-width:480px) { 
+      
+    .grupo {
+        position: relative;
+        top: 150px;
+        left: 40px
+    }
+    
+    .menu {
+        position: relative;
+        bottom: 400px;
+        display: none;
+        left: -5px;
+       margin-bottom: -30px;
+        
+    }
+    .mobile-icon {
+        display: inline-block;
+        color: #ffffff;
+        float: right;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: 20px;
+        position: fixed;
+        bottom: 650px;
+        left: 310px;
+
+    }
+        
+    }
+    @media only screen and (width:411px) and (height:731px) { 
+        .grupo {
+            position: relative;
+            top: 150px;
+            left: 70px
+        }
+        .mobile-icon {
+            display: inline-block;
+            color: #ffffff;
+            float: right;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-right: 20px;
+            position: fixed;
+            bottom: 800px;
+            left: 340px;
+    
+        }
+        .menu {
+            position: absolute;
+            bottom: 430px;
+            display: none;
+        }
+
+        
+
+    }
+    @media only screen and (width:411px) and (height:823px) { 
+        .grupo {
+            position: relative;
+            top: 170px;
+            left: 60px
+        }
+        .mobile-icon {
+            display: inline-block;
+            color: #ffffff;
+            float: right;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-right: 20px;
+            position: fixed;
+            bottom: 900px;
+            left: 340px;
+    
+        }
+        .menu {
+            position: relative;
+            bottom: 400px;
+            display: none;
+            left: -5px;
+        }
+
+    }
+    @media only screen and (width:320px) and (height:568px) { 
+            .grupo {
+                position: relative;
+                top: 170px;
+                left: 60px
+            }
+        
+        .mobile-icon {
+            bottom: 560px;
+            position: fixed;
+            right: 20px;
+
+           
+        }
+        .menu {
+        position: relative;
+        bottom: 400px;
+        display: none;
+        left: -5px;
+        margin-bottom: -30px;
+        
+        }
+
+    }
+    @media only screen and (width:414px) and (height:736px) { 
+        .mobile-icon {
+            bottom: 710px;
+            position: fixed;
+            right: 20px;
+        }
+        .grupo{
+            position: relative;
+            top: 200px
+        }
+    }
+    @media only screen and (width:375px) and (height:812px) { 
+        .mobile-icon {
+            position: fixed;
+            top: 10px;
+        }
+        .grupo {
+            position: relative;
+            top: 210px;
+        }
+
+    }
+    @media only screen and (width:768px) and (height:1024px) { 
+        .grupo {
+            position: relative;
+            top: 300px;
+            left: -40px;
+        }
+        .menu {
+            position: relative;
+            bottom: 500px;
+            display: none;
+        }
+        .mobile-icon {
+            display: inline-block;
+            color: #ffffff;
+            float: right;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-right: 20px;
+            position: fixed;
+            bottom: 900px;
+            left: 640px;
+    
+        }
+    }
+    @media only screen and (width:1024px) and (height:1366px) { 
+        .grupo {
+            position: relative;
+            top: 300px;
+            left: -40px;
+        }
+        .menu {
+            position: relative;
+            bottom: 700px;
+            display: none;
+            font-size:22px;
+        }
+        .mobile-icon {
+            display: inline-block;
+            color: #ffffff;
+            float: right;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-right: 20px;
+            position: fixed;
+            bottom: 1200px;
+            left: 880px;
+    
+        }
+    }
+
+
+
 

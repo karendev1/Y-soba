@@ -1,0 +1,223 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+* {
+    display:flex;
+    background-color: rgb(85, 72, 72);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position:center;
+    height: auto; 
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+    margin-top:135px;
+    
+}
+nav {
+    width: 700px;
+    font-size: 18px;
+   
+}
+.main-content {
+    width: auto;
+    position: fixed;
+}
+.main-nav {
+    float: right;
+    margin-top: 60px;
+   
+}
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 600;
+    bottom: 950px;
+    text-align: center;
+    right: -350px;
+}
+.main-nav li a:hover {
+    border-bottom: 3px solid white;
+    color: black;
+
+}
+.titulo {
+    display: none;
+}
+.intro img{
+    background-color: #ddd;
+    border-radius: 100%;
+    height: 300px;
+    object-fit: cover;
+    width: 320px;  
+    margin-left: 15%;
+    box-shadow: 4px 15px 40px black;
+    position: relative;
+    bottom: 800px;
+    left: -910px;
+    z-index: 20;
+}
+
+
+.intro a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    margin-left: 70px;
+    
+}
+.intro a:hover{
+    color: #000000;
+    font-size: 30px;
+}
+.social-links {
+    position: relative;
+    bottom: 740px;
+    right: 1880px;
+    
+}
+.social-links p {
+    position: relative;
+    bottom: 300px;
+    color: #ffffff;
+    text-align: justify;
+    font-weight: 500;
+}
+.social-links a{
+    font-size: 40px;
+    
+}
+.texto {
+    width: 500px;
+    top: -105px;
+    left: 150px;
+    font-size: 20px;
+
+}
+  
+.intro h1 {
+    position: relative;
+    bottom: 800px;
+    right: 800px;
+    width: 1000px;
+    text-shadow: 10px 10px 10px rgb(54, 54, 54);
+    font-size: 40px;  
+}
+.intro h1:hover {
+    color: #ffffff;
+    text-shadow: 10px 10px 10px rgb(255, 255, 255);
+
+}
+.sobre-nos{
+    border-top: 2px solid black 100%;
+}
+
+/* RESPONSIVO */
+
+@media only screen and (max-width:480px) { 
+    .intro img {
+        position: relative;
+        height:200px;
+        width:200px;
+        margin-top: 0px;
+        
+        
+            }
+    .main-content {
+    width: auto;
+    position: fixed;
+}
+.social-links a {
+    position: relative;
+    bottom: 250px;   
+}
+.social-links {
+    position: relative;
+    bottom: 740px;
+    right: 1880px;
+}
+.texto {
+    width: 332px;
+    top: -34px;
+    left: -217px;
+    font-size: 16px;
+    z-index: 2;
+}
+.intro h1 {
+    z-index: 1;
+    position: relative;
+    bottom: 677px;
+    right: 1153px;
+    width: 1000px;
+    text-shadow: 10px 10px 10px rgb(54, 54, 54);
+    font-size: 30px;
+}
+.menu {
+        position: relative;
+        bottom: 400px;
+        display: none;
+        left: -5px;
+       margin-bottom: -30px;
+        
+    }
+    .mobile-icon {
+        display: inline-block;
+        color: #ffffff;
+        float: right;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: 20px;
+        position: fixed;
+        bottom: 2500px;
+        left: 310px;
+    }
+    .main-nav li a {
+        display:none;
+    
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50%;
+    font-weight: 600;
+    bottom: 950px;
+    text-align: center;
+    right: 50px;
+}
+* {
+    display: flex;
+    background-color: rgb(85, 72, 72);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin-top: 135px;
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+}
+@media only screen and (width:320px) and (height:568) {
+    .intro img {
+    position: relative;
+    height: 1px;
+    width: 176px;
+    margin-top: 0px;
+    margin-right: 1px;
+}
+}

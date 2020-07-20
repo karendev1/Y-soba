@@ -126,6 +126,7 @@ border: 1px solid white;
             padding: 0 2%;
 
         }
+        
     }
     @media only screen and (max-width:998px) {
         h1 {
@@ -166,15 +167,27 @@ border: 1px solid white;
         @media only screen and (max-width:480px) { 
             .btn-full {
                 margin-bottom: 40px;
-                width:300px
+                width:300px;
+                position: relative;
+                top: 57px
                 
             }
             .btn-nav {
                 margin-top: 0;
+                position: relative;
+                top: 42px
             }
             h1 {
                 font-size: 160%;
+                position: relative;
+                top: 60px;
             }
+            .mobile-icon {
+                position: fixed;
+                right: 15px
+            }
+            
+            
         }
     
 

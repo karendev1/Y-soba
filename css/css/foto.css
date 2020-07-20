@@ -268,5 +268,55 @@ h2:hover {
     color: #000000;
     
 }
+@media (max-width:991px) {
+    .portfolio .portfolio-item {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    }
+    @media (max-width:575px) {
+        .contact .contact-info-item,   
+        .portfolio .portfolio-item {
+            flex: 0 0 100%;
+             max-width: 100%;
+        }
+    
+    }
+    @media only screen and (max-width:480px) { 
+        nav {
+            position: relative;
+            left: -60px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+    .lightbox-content {
+            position: relative;
+            left: -400;
+        }
+        .lightbox .lightbox-content img {
+            left: 0;
+        }
+        .menu {
+            position: relative;
+            bottom: 400px;
+            display: none;
+            left: -5px;
+           margin-bottom: -30px;
+            
+        }
+        .mobile-icon {
+            display: inline-block;
+            color: #ffffff;
+            float: right;
+            font-size: 30px;
+            margin-top: 10px;
+            margin-right: 20px;
+            position: fixed;
+            bottom: 650px;
+            left: 310px;
+    
+        }
 
+    }
 
