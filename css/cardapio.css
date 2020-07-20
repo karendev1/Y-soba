@@ -173,6 +173,9 @@ body {
     position: relative;
     bottom: -130px;
 }
+.fa {
+    display: none;
+}
 
 /* RESPONSIVO */
 
