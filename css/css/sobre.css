@@ -16,8 +16,6 @@
 nav {
     width: 700px;
     font-size: 18px;
-    display: none;
-   
 }
 .main-content {
     width: auto;
@@ -97,10 +95,11 @@ nav {
     
 }
 .texto {
-    width: 500px;
-    top: -105px;
-    left: 150px;
-    font-size: 20px;
+        width: 589px;
+        top: -105px;
+        left: 179px;
+        font-size: 20px;
+
 
 }
   

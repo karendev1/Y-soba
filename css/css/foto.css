@@ -6,6 +6,9 @@
     
 
 }
+.mobile {
+    display: none;
+}
 article img{
     width: 100%;
     margin: 10px;
@@ -319,4 +322,29 @@ h2:hover {
         }
 
     }
-
+    @media only screen and (max-width:480px) { 
+        .mobile  {
+            display: inline-block;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 90%;
+            font-weight: 600;
+            
+            }
+            .mobile {
+                display: inline-block;
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 90%;
+                font-weight: 600;
+                position: relative;
+                left: -54px;
+                bottom: -91px;
+            
+            }
+        .batata {
+           
+        }
+    }
