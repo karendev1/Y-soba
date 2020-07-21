@@ -193,14 +193,14 @@ body {
     
     }
     .mobile a {
-    color: #ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 90%;
-    font-weight: 600;
-    position: relative;
-    bottom: 90px;
-    left: 190px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 123%;
+        font-weight: 600;
+        position: relative;
+        bottom: 90px;
+        left: 141px;
     }
 
     nav {
@@ -210,7 +210,7 @@ body {
     .grupo {
         position: relative;
         top: 90px;
-        left: 40px
+        left: -27px;
     }
     
     .menu {
@@ -240,14 +240,13 @@ body {
             font-size: 22px;
             position: relative;
             bottom: 90px;
-            left: 220px;
+            left: 148px;
         }
         .grupo {
             position: relative;
-            top: 150px;
-            left: 70px;
-            
-            height:100vh;
+            top: 100px;
+            left: -18px;
+            height: 100vh;
         }
         .mobile-icon {
             display: inline-block;
@@ -272,14 +271,14 @@ body {
     }
     @media only screen and (width:411px) and (height:823px) { 
         .mobile a {
-            font-size: 22px;
+            font-size: 24px;
             position: relative;
-            left: 220px
+            left: 151px;
         }
         .grupo {
             position: relative;
             top: 110px;
-            left: 45px
+            left: -27px
         }
         .mobile-icon {
             display: inline-block;
@@ -348,7 +347,7 @@ body {
         .grupo{
             position: relative;
             top: 100px;
-            left: 12px
+            left: -24px
         }
     }
     @media only screen and (width:375px) and (height:812px) { 
@@ -443,6 +442,42 @@ body {
             left: 880px;
     
         }
+    }
+    @media only screen and (width:450px) and (height:600px) {
+        .mobile a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 123%;
+            font-weight: 600;
+            position: relative;
+            bottom: 90px;
+            left: 162px;
+        }
+        .grupo {
+            position: relative;
+            top: 90px;
+            left: 7px;
+        } 
+
+    }
+    @media only screen and (width:280px) and (height:653px) {
+        .mobile a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 123%;
+            font-weight: 600;
+            position: relative;
+            bottom: 90px;
+            left: 118px;
+        }
+        .grupo {
+            position: relative;
+            top: 90px;
+            left: -50px;
+        }
+
     }
 
 
