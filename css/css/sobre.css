@@ -210,6 +210,25 @@ nav {
     list-style: none;
     margin-left: 40px;
 }
+.mobile  {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 600;
+    
+    }
+    .mobile a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 123%;
+        font-weight: 600;
+        position: relative;
+        bottom: 90px;
+        left: 141px;
+    }
 
 } 
 @media only screen and (width:320px) and (height:568) {
