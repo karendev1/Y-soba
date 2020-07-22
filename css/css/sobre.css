@@ -150,7 +150,7 @@ nav {
 .texto {
     width: 332px;
     top: -34px;
-    left: -507px;
+    left: -444px;
     font-size: 16px;
     z-index: 2;
 }
@@ -340,7 +340,7 @@ nav {
             .texto {
                 width: 304px;
                 top: -34px;
-                left: -495px;
+                left: -428px;
                 font-size: 13px;
                 z-index: 2;
             }
@@ -380,7 +380,7 @@ nav {
             .texto {
                 width: 340px;
                 top: 13px;
-                left: -507px;
+                left: -438px;
                 font-size: 18px;
                 z-index: 2;
             }
@@ -392,6 +392,16 @@ nav {
                 width: 1000px;
                 text-shadow: 10px 10px 10px rgb(54, 54, 54);
                 font-size: 32px;
+            }
+
+        }
+        @media only screen and (width:375px) and (height:667px) {
+            .texto {
+                width: 332px;
+                top: -34px;
+                left: -436px;
+                font-size: 16px;
+                z-index: 2;
             }
 
         }
@@ -563,7 +573,7 @@ nav {
             .texto {
                 width: 271px;
                 top: -34px;
-                left: -478px;
+                left: -410px;
                 font-size: 14px;
                 z-index: 2;
             }
