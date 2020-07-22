@@ -148,10 +148,10 @@ nav {
     right: 1880px;
 }
 .texto {
-    width: 90vw;
+    width: 88vw;
     top: -34px;
     left: -417px;
-    font-size: 16px;
+    font-size: 14px;
     z-index: 2;
 }
 .intro h1 {
@@ -720,4 +720,24 @@ nav {
             }
 
 
+        }
+        @media only screen and (width:480px) and (height:647px) {
+            .texto {
+                width: 95vw;
+                top: 1px;
+                left: -487px;
+                font-size: 14px;
+                z-index: 2;
+            }
+           
+            .mobile a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 123%;
+                font-weight: 600;
+                position: relative;
+                bottom: 90px;
+                left: 203px;
+            }
         }
