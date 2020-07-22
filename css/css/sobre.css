@@ -123,14 +123,15 @@ nav {
 /* RESPONSIVO */
 
 @media only screen and (max-width:480px) { 
+    
     .intro img {
         position: relative;
-        height:200px;
-        width:200px;
-        margin-top: 0px;
-        
-        
-            }
+        height: 200px;
+        width: 200px;
+        margin-top: 52px;
+        margin-left: 153px;
+    }
+      
     .main-content {
     width: auto;
     position: fixed;
@@ -147,7 +148,7 @@ nav {
 .texto {
     width: 332px;
     top: -34px;
-    left: -217px;
+    left: -507px;
     font-size: 16px;
     z-index: 2;
 }
@@ -155,7 +156,7 @@ nav {
     z-index: 1;
     position: relative;
     bottom: 677px;
-    right: 1153px;
+    right: 1186px;
     width: 1000px;
     text-shadow: 10px 10px 10px rgb(54, 54, 54);
     font-size: 30px;
@@ -210,15 +211,16 @@ nav {
     list-style: none;
     margin-left: 40px;
 }
-.mobile  {
+.mobile {
     display: inline-block;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 90%;
     font-weight: 600;
-    
-    }
+    position: relative;
+    bottom: 563px;
+}
     .mobile a {
         color: #ffffff;
         text-decoration: none;
@@ -231,13 +233,338 @@ nav {
     }
 
 } 
-@media only screen and (width:320px) and (height:568) {
-    .intro img {
+@media only screen and (width:411px) and (height:731px) {
+    .texto {
+    width: 378px;
+    top: 24px;
+    left: -464px;
+    font-size: 16px;
+    z-index: 2;
+    }
+    .fa {
+        display: none;
+    }
+    .intro h1 {
+    z-index: 1;
     position: relative;
-    height: 1px;
-    width: 176px;
-    margin-top: 0px;
-    margin-right: 1px;
+    bottom: 649px;
+    right: 1186px;
+    width: 1000px;
+    text-shadow: 10px 10px 10px rgb(54, 54, 54);
+    font-size: 30px;
+    }
+    .intro img {
+    height: 200px;
+    width: 200px;
+    margin-top: 52px;
+    margin-left: 180px;
+    }
+    .mobile a {
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 123%;
+        font-weight: 600;
+        position: relative;
+        bottom: 90px;
+        left: 176px;
+    }
 }
+    @media only screen and (width:411px) and (height:823px) {
+        .fa {
+            display: none;
+        }
+        .intro img {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            margin-top: 52px;
+            margin-left: 186px;
+        }
+        .mobile a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 123%;
+            font-weight: 600;
+            position: relative;
+            bottom: 90px;
+            left: 175px;
+        }
+        .texto {
+            width: 370px;
+            top: 29px;
+            left: -464px;
+            font-size: 19px;
+            z-index: 2;
+        }
+        .intro h1 {
+            z-index: 1;
+            position: relative;
+            bottom: 649px;
+            right: 1202px;
+            width: 1000px;
+            text-shadow: 10px 10px 10px rgb(54, 54, 54);
+            font-size: 32px;
+        }
+    }
+        @media only screen and (width:320px) and (height:568px) {
+            .intro img {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin-top: 52px;
+                margin-left: 133px;
+            }
+            .mobile a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 123%;
+                font-weight: 600;
+                position: relative;
+                bottom: 90px;
+                left: 130px;
+            }
+            .intro h1 {
+                z-index: 1;
+                position: relative;
+                bottom: 677px;
+                right: 1158px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 26px;
+            }
+            .texto {
+                width: 304px;
+                top: -34px;
+                left: -495px;
+                font-size: 13px;
+                z-index: 2;
+            }
 
-}
+        }
+        @media only screen and (width:414px) and (height:736px) {
+            .fa {
+                display: none;
+            }
+            .intro img {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin-top: 52px;
+                margin-left: 172px;
+            }
+            .mobile a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 127%;
+                font-weight: 600;
+                position: relative;
+                bottom: 90px;
+                left: 165px;
+            }
+            .texto {
+                width: 372px;
+                top: -20px;
+                left: -458px;
+                font-size: 19px;
+                z-index: 2;
+            }
+            
+        }
+        @media only screen and (width:375px) and (height:812px) {
+            .texto {
+                width: 340px;
+                top: 13px;
+                left: -507px;
+                font-size: 18px;
+                z-index: 2;
+            }
+            .intro h1 {
+                z-index: 1;
+                position: relative;
+                bottom: 657px;
+                right: 1186px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 32px;
+            }
+
+        }
+        @media only screen and (width:768px) and (height:1024px) {
+            .mobile a {
+                display: none;
+            }
+            .mobile-icon {
+                display: none;
+            }
+            nav {
+                position: relative;
+                left: -280px
+            }
+            .texto {
+                width: 658px;
+                top: 181px;
+                left: -235px;
+                font-size: 27px;
+                z-index: 200;
+            }
+            .intro h1 {
+                position: relative;
+                bottom: 357px;
+                right: 1166px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 40px;
+            }
+            .intro img {
+                background-color: #ddd;
+                border-radius: 100%;
+                height: 300px;
+                object-fit: cover;
+                width: 320px;
+                margin-left: 21%;
+                box-shadow: 4px 15px 40px black;
+                position: relative;
+                bottom: 833px;
+                left: -910px;
+                z-index: 20;
+            }
+            .fa {
+                display: none;
+            }
+            .intro h1 {
+                z-index: 100;
+                position: relative;
+                bottom: 512px;
+                right: 1291px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 40px;
+            }
+
+        }
+        @media only screen and (width:1024px) and (height:1366px) { 
+            .mobile a {
+                display: none;
+            }
+            .mobile-icon {
+                display: none;
+            }
+            nav {
+                position: relative;
+                left: -200px;
+                font-size: 23px;
+            }
+            .texto {
+                width: 923px;
+                top: 212px;
+                left: -235px;
+                font-size: 36px;
+                z-index: 200;
+            }
+            .intro h1 {
+                position: relative;
+                bottom: 480px;
+                right: 1166px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 40px;
+            }
+            .intro img {
+                background-color: #ddd;
+                border-radius: 100%;
+                height: 300px;
+                object-fit: cover;
+                width: 320px;
+                margin-left: 23%;
+                box-shadow: 4px 15px 40px black;
+                position: relative;
+                bottom: 833px;
+                left: -910px;
+                z-index: 20;
+            }
+            .fa {
+                display: none;
+            }
+            .intro h1 {
+                z-index: 100;
+                position: relative;
+                bottom: 480px;
+                right: 1291px;
+                width: 1003px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 40px;
+            }
+
+        }
+        @media only screen and (width:450px) and (height:600px) { 
+            .fa {
+                display: none;
+            }
+            .intro img {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin-top: 52px;
+                margin-left: 182px;
+            }
+            .texto {
+                width: 390px;
+                top: -27px;
+                left: -459px;
+                font-size: 16px;
+                z-index: 2;
+            }
+            .mobile {
+                display: inline-block;
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 90%;
+                font-weight: 600;
+                position: relative;
+                bottom: 563px;
+                left: 32px;
+            }
+
+        }
+        @media only screen and (width:280px) and (height:653px) { 
+            .intro img {
+                position: relative;
+                height: 200px;
+                width: 200px;
+                margin-top: 52px;
+                margin-left: 113px;
+            }
+            .mobile a {
+                color: #ffffff;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 123%;
+                font-weight: 600;
+                position: relative;
+                bottom: 90px;
+                left: 110px;
+            }
+            .intro h1 {
+                z-index: 1;
+                position: relative;
+                bottom: 677px;
+                right: 1148px;
+                width: 1000px;
+                text-shadow: 10px 10px 10px rgb(54, 54, 54);
+                font-size: 24px;
+            }
+            .texto {
+                width: 271px;
+                top: -34px;
+                left: -478px;
+                font-size: 14px;
+                z-index: 2;
+            }
+        }
+
+
