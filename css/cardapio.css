@@ -193,7 +193,7 @@ body {
     
     }
     .mobile a {
-        color: #ffffff;
+        color: #000000;
         text-decoration: none;
         text-transform: uppercase;
         font-size: 123%;
@@ -201,6 +201,8 @@ body {
         position: relative;
         bottom: 90px;
         left: 141px;
+        background-color: #d6c6b2;
+        border-radius: 35%;
     }
 
     nav {
@@ -477,6 +479,34 @@ body {
             top: 90px;
             left: -50px;
         }
+
+    }
+    @media only screen and (width:375px) and (height:667px) { 
+        .grupo {
+            position: relative;
+            top: 90px;
+            left: -20px;
+        }
+
+
+    }
+    @media only screen and (width:314px) and (height:647px) { 
+        .grupo {
+            position: relative;
+            top: 90px;
+            left: -34px;
+        }
+        .mobile a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 123%;
+            font-weight: 600;
+            position: relative;
+            bottom: 90px;
+            left: 125px;
+        }
+        
 
     }
 
